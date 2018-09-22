@@ -6,11 +6,11 @@ This repository has some exercises and challenges of [HackerRank](https://www.ha
 
   This directory has my solutions for the challenges from the 30 days of code of HackerRank. 
 
-* [Code Wars](https://www.codewars.com/dashboard)
+* [Code Wars](https://www.codewars.com/dashboard):
   
   This directory has my solutions for the challenges from CodeWars.
  
-* Random Exercises
+* Random Exercises:
   
   Just some random exercices.
 
