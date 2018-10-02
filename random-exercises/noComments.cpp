@@ -17,9 +17,7 @@ enum state{
 
 
 void showOutput(char c){
-    
     cout << c;
-
 }
 
 int main(){
@@ -47,7 +45,7 @@ int main(){
                     state = state3;
                 }else if(c == '/'){
                     showOutput('/');
-                }else if(c != '*'){
+                }else{
                     state = state1;
                     showOutput('/');
                     showOutput(c);

@@ -1,13 +1,8 @@
 #include <stdio.h>
-/*
-Hello People
-*/
-int main(int argc, char const *argv[])
+/*Hello People*/
+int main()
 {
     printf("Hello ");
     return 0;
-/*
- Second commentary
-*/
-
+/*Lol*/
 }
