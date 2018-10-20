@@ -12,7 +12,6 @@ int countNumbers(vector<int> binaryNumber)
     for (int i = 0; i < binaryNumber.size(); i++){
 
         if (binaryNumber[i] == 1){
-
             count++;
 
             if (binaryNumber[i + 1] != 1){
