@@ -1,25 +1,25 @@
 #include <string>
 #include <iostream>
 
+
 using namespace std;
 
 
 // Replace all vowel to exclamation mark in the sentence. aeiouAEIOU is vowel.
-
-string replace(const string s)
+string replace(string s)
 {
     string outString;
+    char c;
     outString.clear();
-    bool isLowercaseVowel = (!s.compare("a") || !s.compare("e") || s.compare("i") || !s.compare("o") || !s.compare("u"));
-    // bool isUppercaseVowel = (s.compare("A") || s.compare("E") || s.compare("I") || s.compare("O") || s.compare("U"));
 
     for (int i = 0 ; i < s.size() ; i++){
-        if (isLowercaseVowel){
+        c = s[i];
+        if ((c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') || (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')){
             outString.push_back('!');
         }else{
-            cout << "S: "<< s[i] << endl;
-            outString.push_back(s[i]);
+            outString.push_back(c);
         }
+       
     }
     
     return outString; 
@@ -27,7 +27,7 @@ string replace(const string s)
 
 int main(){
 
-    cout << replace("Hi!") << endl;
+    cout << replace("ABCDE") << endl;
     
 
 return 0;    
